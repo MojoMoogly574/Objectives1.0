@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
-
+ /*
+  MVVM Architecture
+  */
 @main
 struct Objectives1_0App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ListView()
+            }
         }
     }
 }
